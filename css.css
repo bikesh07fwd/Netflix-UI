@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'ns';
+    src: url('./ns.otf');
+}
+@font-face {
+    font-family: 'nsbold';
+    src: url('./nsbold.otf');
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+    background:url("https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    margin: 0px;
+    padding:0px;
+    font-family: 'ns';
+
+}
+.main{
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.619);
+    display: flex;
+    flex-direction: column;
+}
+.nav_bar{
+    height:100px;
+    display: flex;
+    box-sizing: border-box;
+
+
+}
+.left{
+    width:50%;
+    display:flex;
+    color: red;
+    align-items:center;
+    justify-content:center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.right{
+    width:50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_1{
+    margin-left: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    padding: 3px;
+    border-radius: 6px;
+    background-color: black;
+    color:white;
+}
+.btn_2{
+    margin-left: 24px;
+}
+.icon_1{
+    margin-right: 4px;
+}
+.icon_2{
+    margin-left: 4px;
+}
+.sign_in{
+    background-color: red;
+    color:white;
+    border: red;
+    border-radius: 6px;
+    height: 23px;
+}
+.logo_img{
+    height: 100%;
+    
+}
+.logo{
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.lower_cont{
+    height:calc(100% - 100px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.lower_1{
+    display: flex;
+    width: 100%;
+    font-size: xxx-large;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    /* background-color: grey; */
+    font-family: "nsbold";
+}
+.lower_2{
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    /* background-color: palevioletred; */
+    font-size: x-large;
+}
+.lower_3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* background-color: red; */
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+.lower_4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    }
+.text{
+    padding: 10px;
+    border-radius: 3%;
+    background-color: black;
+    border: 1px solid rgb(128, 128, 128);
+    margin-right: 4px;
+    padding-right: 114px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.start{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 3%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.icon_3{
+    margin-left: 4px;
+}
